@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1.View.NhanVien
+namespace QuanLyCuaHangBanThuoc.View.NhanVien
 {
     public partial class TrinhDo : UserControl
     {

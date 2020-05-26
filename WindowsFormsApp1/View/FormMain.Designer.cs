@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1.View
+﻿namespace QuanLyCuaHangBanThuoc.View
 {
     partial class formMain
     {
@@ -58,23 +58,23 @@
             this.menuUser = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýThôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.screenCauHinhCongDung = new WindowsFormsApp1.View.CauHinhCongDung();
-            this.screenCauHinhDangDieuChe = new WindowsFormsApp1.View.CauHinhDangDieuChe();
-            this.screenCauHinhDonViTinh = new WindowsFormsApp1.View.CauHinhDonViTinh();
-            this.screenCauHinhNuocSanXuat = new WindowsFormsApp1.View.CauHinhNuocSanXuat();
-            this.screenHoaDonNhapThemMoi = new WindowsFormsApp1.View.HoaDonNhapThemMoi();
-            this.screenHoaDonNhapThongKe = new WindowsFormsApp1.View.HoaDonNhapThongKe();
-            this.screenHoaDonBanThongKe = new WindowsFormsApp1.View.ThongKeHoaDonBan();
-            this.screemThuocThemMoi = new WindowsFormsApp1.View.ThuocThemMoi();
-            this.screenThuocThongKe = new WindowsFormsApp1.View.ThuocThongKe();
-            this.screenChuyenMon = new WindowsFormsApp1.View.NhanVien.CauHinh.ChuyenMon();
-            this.screenNhanVienThemMoi = new WindowsFormsApp1.View.NhanVien.NhanVienThemMoi();
-            this.screenNhanVienThongKe = new WindowsFormsApp1.View.NhanVien.NhanVienThongKe();
-            this.screenTrinhDo = new WindowsFormsApp1.View.NhanVien.TrinhDo();
-            this.screenKhachHangThongKe = new WindowsFormsApp1.View.BanThuoc.KhachHangThongKe();
-            this.screenNhaCungCap = new WindowsFormsApp1.View.NhapThuoc.NhaCungCap();
-            this.screenBanThuoc = new WindowsFormsApp1.View.screenBanThuoc();
-            this.screenTrangChu = new WindowsFormsApp1.View.screenTrangChu();
+            this.screenCauHinhCongDung = new QuanLyCuaHangBanThuoc.View.CauHinhCongDung();
+            this.screenCauHinhDangDieuChe = new QuanLyCuaHangBanThuoc.View.CauHinhDangDieuChe();
+            this.screenCauHinhDonViTinh = new QuanLyCuaHangBanThuoc.View.CauHinhDonViTinh();
+            this.screenCauHinhNuocSanXuat = new QuanLyCuaHangBanThuoc.View.CauHinhNuocSanXuat();
+            this.screenHoaDonNhapThemMoi = new QuanLyCuaHangBanThuoc.View.HoaDonNhapThemMoi();
+            this.screenHoaDonNhapThongKe = new QuanLyCuaHangBanThuoc.View.HoaDonNhapThongKe();
+            this.screenHoaDonBanThongKe = new QuanLyCuaHangBanThuoc.View.ThongKeHoaDonBan();
+            this.screemThuocThemMoi = new QuanLyCuaHangBanThuoc.View.ThuocThemMoi();
+            this.screenThuocThongKe = new QuanLyCuaHangBanThuoc.View.ThuocThongKe();
+            this.screenChuyenMon = new QuanLyCuaHangBanThuoc.View.NhanVien.CauHinh.ChuyenMon();
+            this.screenNhanVienThemMoi = new QuanLyCuaHangBanThuoc.View.NhanVien.NhanVienThemMoi();
+            this.screenNhanVienThongKe = new QuanLyCuaHangBanThuoc.View.NhanVien.NhanVienThongKe();
+            this.screenTrinhDo = new QuanLyCuaHangBanThuoc.View.NhanVien.TrinhDo();
+            this.screenKhachHangThongKe = new QuanLyCuaHangBanThuoc.View.BanThuoc.KhachHangThongKe();
+            this.screenNhaCungCap = new QuanLyCuaHangBanThuoc.View.NhapThuoc.NhaCungCap();
+            this.screenBanThuoc = new QuanLyCuaHangBanThuoc.View.screenBanThuoc();
+            this.screenTrangChu = new QuanLyCuaHangBanThuoc.View.screenTrangChu();
             this.menuMain.SuspendLayout();
             this.SuspendLayout();
             // 

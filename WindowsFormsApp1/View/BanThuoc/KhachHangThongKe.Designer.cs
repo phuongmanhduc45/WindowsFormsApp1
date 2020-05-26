@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1.View.BanThuoc
+﻿namespace QuanLyCuaHangBanThuoc.View.BanThuoc
 {
     partial class KhachHangThongKe
     {

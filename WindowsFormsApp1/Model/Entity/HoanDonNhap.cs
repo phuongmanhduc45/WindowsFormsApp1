@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp1.Model.Entity
+namespace QuanLyCuaHangBanThuoc.Model.Entity
 {
     public class HoanDonNhap
     {

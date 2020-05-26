@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1.View.NhapThuoc
+namespace QuanLyCuaHangBanThuoc.View.NhapThuoc
 {
     public partial class NhaCungCap : UserControl
     {

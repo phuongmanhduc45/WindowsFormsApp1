@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1.View.NhanVien.CauHinh
+﻿namespace QuanLyCuaHangBanThuoc.View.NhanVien.CauHinh
 {
     partial class ChuyenMon
     {

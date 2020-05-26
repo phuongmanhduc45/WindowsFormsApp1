@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1.View
+﻿namespace QuanLyCuaHangBanThuoc.View
 {
     partial class CauHinhDonViTinh
     {

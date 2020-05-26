@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsApp1.View;
+using QuanLyCuaHangBanThuoc.View;
 
-namespace WindowsFormsApp1
+namespace QuanLyCuaHangBanThuoc
 {
     static class Program
     {

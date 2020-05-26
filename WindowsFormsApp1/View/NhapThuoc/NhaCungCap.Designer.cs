@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1.View.NhapThuoc
+﻿namespace QuanLyCuaHangBanThuoc.View.NhapThuoc
 {
     partial class NhaCungCap
     {

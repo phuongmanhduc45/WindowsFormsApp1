@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1.View.NhanVien
+﻿namespace QuanLyCuaHangBanThuoc.View.NhanVien
 {
     partial class NhanVienThemMoi
     {
