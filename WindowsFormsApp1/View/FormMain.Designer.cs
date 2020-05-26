@@ -58,6 +58,7 @@
             this.menuUser = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýThôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.screenTrangChu = new QuanLyCuaHangBanThuoc.View.screenTrangChu();
             this.screenCauHinhCongDung = new QuanLyCuaHangBanThuoc.View.CauHinhCongDung();
             this.screenCauHinhDangDieuChe = new QuanLyCuaHangBanThuoc.View.CauHinhDangDieuChe();
             this.screenCauHinhDonViTinh = new QuanLyCuaHangBanThuoc.View.CauHinhDonViTinh();
@@ -74,7 +75,6 @@
             this.screenKhachHangThongKe = new QuanLyCuaHangBanThuoc.View.BanThuoc.KhachHangThongKe();
             this.screenNhaCungCap = new QuanLyCuaHangBanThuoc.View.NhapThuoc.NhaCungCap();
             this.screenBanThuoc = new QuanLyCuaHangBanThuoc.View.screenBanThuoc();
-            this.screenTrangChu = new QuanLyCuaHangBanThuoc.View.screenTrangChu();
             this.menuMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -312,134 +312,6 @@
             this.thoátToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.thoátToolStripMenuItem.Text = "Thoát";
             // 
-            // screenCauHinhCongDung
-            // 
-            this.screenCauHinhCongDung.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenCauHinhCongDung.Location = new System.Drawing.Point(0, 0);
-            this.screenCauHinhCongDung.Name = "screenCauHinhCongDung";
-            this.screenCauHinhCongDung.Size = new System.Drawing.Size(845, 557);
-            this.screenCauHinhCongDung.TabIndex = 18;
-            // 
-            // screenCauHinhDangDieuChe
-            // 
-            this.screenCauHinhDangDieuChe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenCauHinhDangDieuChe.Location = new System.Drawing.Point(0, 0);
-            this.screenCauHinhDangDieuChe.Name = "screenCauHinhDangDieuChe";
-            this.screenCauHinhDangDieuChe.Size = new System.Drawing.Size(845, 557);
-            this.screenCauHinhDangDieuChe.TabIndex = 17;
-            // 
-            // screenCauHinhDonViTinh
-            // 
-            this.screenCauHinhDonViTinh.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenCauHinhDonViTinh.Location = new System.Drawing.Point(0, 0);
-            this.screenCauHinhDonViTinh.Name = "screenCauHinhDonViTinh";
-            this.screenCauHinhDonViTinh.Size = new System.Drawing.Size(845, 557);
-            this.screenCauHinhDonViTinh.TabIndex = 16;
-            // 
-            // screenCauHinhNuocSanXuat
-            // 
-            this.screenCauHinhNuocSanXuat.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenCauHinhNuocSanXuat.Location = new System.Drawing.Point(0, 0);
-            this.screenCauHinhNuocSanXuat.Name = "screenCauHinhNuocSanXuat";
-            this.screenCauHinhNuocSanXuat.Size = new System.Drawing.Size(845, 557);
-            this.screenCauHinhNuocSanXuat.TabIndex = 14;
-            // 
-            // screenHoaDonNhapThemMoi
-            // 
-            this.screenHoaDonNhapThemMoi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenHoaDonNhapThemMoi.Location = new System.Drawing.Point(0, 0);
-            this.screenHoaDonNhapThemMoi.Name = "screenHoaDonNhapThemMoi";
-            this.screenHoaDonNhapThemMoi.Size = new System.Drawing.Size(845, 557);
-            this.screenHoaDonNhapThemMoi.TabIndex = 13;
-            // 
-            // screenHoaDonNhapThongKe
-            // 
-            this.screenHoaDonNhapThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenHoaDonNhapThongKe.Location = new System.Drawing.Point(0, 0);
-            this.screenHoaDonNhapThongKe.Name = "screenHoaDonNhapThongKe";
-            this.screenHoaDonNhapThongKe.Size = new System.Drawing.Size(845, 557);
-            this.screenHoaDonNhapThongKe.TabIndex = 12;
-            // 
-            // screenHoaDonBanThongKe
-            // 
-            this.screenHoaDonBanThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenHoaDonBanThongKe.Location = new System.Drawing.Point(0, 0);
-            this.screenHoaDonBanThongKe.Name = "screenHoaDonBanThongKe";
-            this.screenHoaDonBanThongKe.Size = new System.Drawing.Size(845, 557);
-            this.screenHoaDonBanThongKe.TabIndex = 11;
-            // 
-            // screemThuocThemMoi
-            // 
-            this.screemThuocThemMoi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screemThuocThemMoi.Location = new System.Drawing.Point(0, 0);
-            this.screemThuocThemMoi.Name = "screemThuocThemMoi";
-            this.screemThuocThemMoi.Size = new System.Drawing.Size(845, 557);
-            this.screemThuocThemMoi.TabIndex = 10;
-            // 
-            // screenThuocThongKe
-            // 
-            this.screenThuocThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenThuocThongKe.Location = new System.Drawing.Point(0, 0);
-            this.screenThuocThongKe.Name = "screenThuocThongKe";
-            this.screenThuocThongKe.Size = new System.Drawing.Size(845, 557);
-            this.screenThuocThongKe.TabIndex = 9;
-            // 
-            // screenChuyenMon
-            // 
-            this.screenChuyenMon.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenChuyenMon.Location = new System.Drawing.Point(0, 0);
-            this.screenChuyenMon.Name = "screenChuyenMon";
-            this.screenChuyenMon.Size = new System.Drawing.Size(845, 557);
-            this.screenChuyenMon.TabIndex = 8;
-            // 
-            // screenNhanVienThemMoi
-            // 
-            this.screenNhanVienThemMoi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenNhanVienThemMoi.Location = new System.Drawing.Point(0, 0);
-            this.screenNhanVienThemMoi.Name = "screenNhanVienThemMoi";
-            this.screenNhanVienThemMoi.Size = new System.Drawing.Size(845, 557);
-            this.screenNhanVienThemMoi.TabIndex = 7;
-            // 
-            // screenNhanVienThongKe
-            // 
-            this.screenNhanVienThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenNhanVienThongKe.Location = new System.Drawing.Point(0, 0);
-            this.screenNhanVienThongKe.Name = "screenNhanVienThongKe";
-            this.screenNhanVienThongKe.Size = new System.Drawing.Size(845, 557);
-            this.screenNhanVienThongKe.TabIndex = 6;
-            // 
-            // screenTrinhDo
-            // 
-            this.screenTrinhDo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenTrinhDo.Location = new System.Drawing.Point(0, 0);
-            this.screenTrinhDo.Name = "screenTrinhDo";
-            this.screenTrinhDo.Size = new System.Drawing.Size(845, 557);
-            this.screenTrinhDo.TabIndex = 5;
-            // 
-            // screenKhachHangThongKe
-            // 
-            this.screenKhachHangThongKe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenKhachHangThongKe.Location = new System.Drawing.Point(0, 0);
-            this.screenKhachHangThongKe.Name = "screenKhachHangThongKe";
-            this.screenKhachHangThongKe.Size = new System.Drawing.Size(845, 557);
-            this.screenKhachHangThongKe.TabIndex = 4;
-            // 
-            // screenNhaCungCap
-            // 
-            this.screenNhaCungCap.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenNhaCungCap.Location = new System.Drawing.Point(0, 0);
-            this.screenNhaCungCap.Name = "screenNhaCungCap";
-            this.screenNhaCungCap.Size = new System.Drawing.Size(845, 557);
-            this.screenNhaCungCap.TabIndex = 3;
-            // 
-            // screenBanThuoc
-            // 
-            this.screenBanThuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screenBanThuoc.Location = new System.Drawing.Point(0, 0);
-            this.screenBanThuoc.Name = "screenBanThuoc";
-            this.screenBanThuoc.Size = new System.Drawing.Size(845, 557);
-            this.screenBanThuoc.TabIndex = 2;
-            // 
             // screenTrangChu
             // 
             this.screenTrangChu.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -448,13 +320,141 @@
             this.screenTrangChu.Size = new System.Drawing.Size(845, 530);
             this.screenTrangChu.TabIndex = 1;
             // 
+            // screenCauHinhCongDung
+            // 
+            this.screenCauHinhCongDung.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenCauHinhCongDung.Location = new System.Drawing.Point(0, 0);
+            this.screenCauHinhCongDung.Name = "screenCauHinhCongDung";
+            this.screenCauHinhCongDung.Size = new System.Drawing.Size(845, 557);
+            this.screenCauHinhCongDung.TabIndex = 18;
+            // 
+            // screenCauHinhDangDieuChe
+            // 
+            this.screenCauHinhDangDieuChe.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenCauHinhDangDieuChe.Location = new System.Drawing.Point(0, 0);
+            this.screenCauHinhDangDieuChe.Name = "screenCauHinhDangDieuChe";
+            this.screenCauHinhDangDieuChe.Size = new System.Drawing.Size(845, 557);
+            this.screenCauHinhDangDieuChe.TabIndex = 17;
+            // 
+            // screenCauHinhDonViTinh
+            // 
+            this.screenCauHinhDonViTinh.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenCauHinhDonViTinh.Location = new System.Drawing.Point(0, 0);
+            this.screenCauHinhDonViTinh.Name = "screenCauHinhDonViTinh";
+            this.screenCauHinhDonViTinh.Size = new System.Drawing.Size(845, 557);
+            this.screenCauHinhDonViTinh.TabIndex = 16;
+            // 
+            // screenCauHinhNuocSanXuat
+            // 
+            this.screenCauHinhNuocSanXuat.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenCauHinhNuocSanXuat.Location = new System.Drawing.Point(0, 0);
+            this.screenCauHinhNuocSanXuat.Name = "screenCauHinhNuocSanXuat";
+            this.screenCauHinhNuocSanXuat.Size = new System.Drawing.Size(845, 557);
+            this.screenCauHinhNuocSanXuat.TabIndex = 14;
+            // 
+            // screenHoaDonNhapThemMoi
+            // 
+            this.screenHoaDonNhapThemMoi.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenHoaDonNhapThemMoi.Location = new System.Drawing.Point(0, 0);
+            this.screenHoaDonNhapThemMoi.Name = "screenHoaDonNhapThemMoi";
+            this.screenHoaDonNhapThemMoi.Size = new System.Drawing.Size(845, 557);
+            this.screenHoaDonNhapThemMoi.TabIndex = 13;
+            // 
+            // screenHoaDonNhapThongKe
+            // 
+            this.screenHoaDonNhapThongKe.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenHoaDonNhapThongKe.Location = new System.Drawing.Point(0, 0);
+            this.screenHoaDonNhapThongKe.Name = "screenHoaDonNhapThongKe";
+            this.screenHoaDonNhapThongKe.Size = new System.Drawing.Size(845, 557);
+            this.screenHoaDonNhapThongKe.TabIndex = 12;
+            // 
+            // screenHoaDonBanThongKe
+            // 
+            this.screenHoaDonBanThongKe.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenHoaDonBanThongKe.Location = new System.Drawing.Point(0, 0);
+            this.screenHoaDonBanThongKe.Name = "screenHoaDonBanThongKe";
+            this.screenHoaDonBanThongKe.Size = new System.Drawing.Size(845, 557);
+            this.screenHoaDonBanThongKe.TabIndex = 11;
+            // 
+            // screemThuocThemMoi
+            // 
+            this.screemThuocThemMoi.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screemThuocThemMoi.Location = new System.Drawing.Point(0, 0);
+            this.screemThuocThemMoi.Name = "screemThuocThemMoi";
+            this.screemThuocThemMoi.Size = new System.Drawing.Size(845, 557);
+            this.screemThuocThemMoi.TabIndex = 10;
+            // 
+            // screenThuocThongKe
+            // 
+            this.screenThuocThongKe.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenThuocThongKe.Location = new System.Drawing.Point(0, 0);
+            this.screenThuocThongKe.Name = "screenThuocThongKe";
+            this.screenThuocThongKe.Size = new System.Drawing.Size(845, 557);
+            this.screenThuocThongKe.TabIndex = 9;
+            // 
+            // screenChuyenMon
+            // 
+            this.screenChuyenMon.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenChuyenMon.Location = new System.Drawing.Point(0, 0);
+            this.screenChuyenMon.Name = "screenChuyenMon";
+            this.screenChuyenMon.Size = new System.Drawing.Size(845, 557);
+            this.screenChuyenMon.TabIndex = 8;
+            // 
+            // screenNhanVienThemMoi
+            // 
+            this.screenNhanVienThemMoi.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenNhanVienThemMoi.Location = new System.Drawing.Point(0, 0);
+            this.screenNhanVienThemMoi.Name = "screenNhanVienThemMoi";
+            this.screenNhanVienThemMoi.Size = new System.Drawing.Size(845, 557);
+            this.screenNhanVienThemMoi.TabIndex = 7;
+            // 
+            // screenNhanVienThongKe
+            // 
+            this.screenNhanVienThongKe.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenNhanVienThongKe.Location = new System.Drawing.Point(0, 0);
+            this.screenNhanVienThongKe.Name = "screenNhanVienThongKe";
+            this.screenNhanVienThongKe.Size = new System.Drawing.Size(845, 557);
+            this.screenNhanVienThongKe.TabIndex = 6;
+            // 
+            // screenTrinhDo
+            // 
+            this.screenTrinhDo.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenTrinhDo.Location = new System.Drawing.Point(0, 0);
+            this.screenTrinhDo.Name = "screenTrinhDo";
+            this.screenTrinhDo.Size = new System.Drawing.Size(845, 557);
+            this.screenTrinhDo.TabIndex = 5;
+            // 
+            // screenKhachHangThongKe
+            // 
+            this.screenKhachHangThongKe.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenKhachHangThongKe.Location = new System.Drawing.Point(0, 0);
+            this.screenKhachHangThongKe.Name = "screenKhachHangThongKe";
+            this.screenKhachHangThongKe.Size = new System.Drawing.Size(845, 557);
+            this.screenKhachHangThongKe.TabIndex = 4;
+            // 
+            // screenNhaCungCap
+            // 
+            this.screenNhaCungCap.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenNhaCungCap.Location = new System.Drawing.Point(0, 0);
+            this.screenNhaCungCap.Name = "screenNhaCungCap";
+            this.screenNhaCungCap.Size = new System.Drawing.Size(845, 557);
+            this.screenNhaCungCap.TabIndex = 3;
+            // 
+            // screenBanThuoc
+            // 
+            this.screenBanThuoc.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.screenBanThuoc.Location = new System.Drawing.Point(0, 0);
+            this.screenBanThuoc.Name = "screenBanThuoc";
+            this.screenBanThuoc.Size = new System.Drawing.Size(845, 557);
+            this.screenBanThuoc.TabIndex = 2;
+            // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(845, 557);
-            this.Controls.Add(this.menuMain);
             this.Controls.Add(this.screenTrangChu);
+            this.Controls.Add(this.menuMain);
             this.Controls.Add(this.screenCauHinhCongDung);
             this.Controls.Add(this.screenCauHinhDangDieuChe);
             this.Controls.Add(this.screenCauHinhDonViTinh);

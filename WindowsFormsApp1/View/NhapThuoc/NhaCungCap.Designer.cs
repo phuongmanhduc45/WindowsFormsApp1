@@ -46,7 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Name = "NhaCungCap";
-            this.Size = new System.Drawing.Size(596, 411);
+            this.Size = new System.Drawing.Size(828, 540);
             this.Load += new System.EventHandler(this.NhaCungCap_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

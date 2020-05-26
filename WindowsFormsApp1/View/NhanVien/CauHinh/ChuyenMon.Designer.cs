@@ -46,7 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Name = "ChuyenMon";
-            this.Size = new System.Drawing.Size(547, 444);
+            this.Size = new System.Drawing.Size(828, 540);
             this.ResumeLayout(false);
             this.PerformLayout();
 
