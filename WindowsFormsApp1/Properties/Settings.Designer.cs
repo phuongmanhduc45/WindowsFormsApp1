@@ -22,5 +22,16 @@ namespace QuanLyCuaHangBanThuoc.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-BV1RMRN\\TAKA;Initial Catalog=TiemThuoc;Integrated Security=Tr" +
+            "ue")]
+        public string TiemThuocConnectionString {
+            get {
+                return ((string)(this["TiemThuocConnectionString"]));
+            }
+        }
     }
 }

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\DataAccess\DataBaseFunction.cs" />
     <Compile Include="Model\Entity\HoaDonBan.cs" />
     <Compile Include="Model\Entity\HoaDonBanDetail.cs" />
     <Compile Include="Model\Entity\HoaDonNhapDetail.cs" />
@@ -63,6 +64,12 @@
     <Compile Include="Model\Entity\ThuocCongDung.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TiemThuocDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TiemThuocDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\TienIch.cs" />
     <Compile Include="View\BanThuoc\BanThuoc.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -244,12 +251,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TiemThuocDataSet.xsc">
+      <DependentUpon>TiemThuocDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TiemThuocDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TiemThuocDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TiemThuocDataSet.xss">
+      <DependentUpon>TiemThuocDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
