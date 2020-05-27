@@ -97,7 +97,7 @@ namespace QuanLyCuaHangBanThuoc.View
                 //Người dùng chọn có
                 if (result == DialogResult.Yes)
                 {
-                    List<int> removeIndexes = new List<int>();
+                    List<int> removeIds = new List<int>();
                     foreach (DataGridViewRow row in selectedRows)
                     {
                         // bản ghi hiện tại phải khác bản ghi cuối cùng trong bảng
@@ -115,7 +115,7 @@ namespace QuanLyCuaHangBanThuoc.View
                                     DataBaseFunction.Delete(sqlDelete);
                                 }
                                 //thực hiện lưu vị trí bản ghi cần xóa để xóa bản ghi ở phía giao diện người dùng
-                                removeIndexes.Add(row.Index);
+                                removeIds.Add(Int32.Parse(row.Cells[0].Value.ToString()));
 
                                 // biến flag được dùng để lưu vị trí của phần tử trong mảng
                                 // danh sách các bản ghi có thực hiện chỉnh sửa có giá trị = editedText,
@@ -139,9 +139,15 @@ namespace QuanLyCuaHangBanThuoc.View
                             }
                         }
                     }
-                    foreach (int viTriCanXoa in removeIndexes)
+                    foreach (int giaTriIdCanTimDeXoa in removeIds)
                     {
-                        dgvDonViTinh.Rows.RemoveAt(viTriCanXoa);
+                        foreach (DataGridViewRow jow in dgvDonViTinh.Rows)
+                        {
+                            if (Int32.Parse(jow.Cells[0].Value.ToString()) == giaTriIdCanTimDeXoa){
+                                dgvDonViTinh.Rows.RemoveAt(jow.Index);
+                                break;
+                            }
+                        }
                     }
                     TienIch.ShowThanhCong("Thành Công", "Đã thực hiện xóa thành công!");
                 }
